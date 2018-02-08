@@ -1,5 +1,73 @@
- .navbar-default .navbar-brand {
-     background-color: #4aaaa5;
-     color: #fff;
-     font-family: Georgia, "Times New Roman", Times, serif;
- }
+body {
+    background: #f5f5f5;
+    background-image: url("../images/concrete-texture.png");
+    color: #777777;
+}
+
+section,
+aside {
+    background: #ffffff;
+}
+
+section {
+    margin: 0 20px 20px 0;
+}
+
+aside {
+    margin: 0 0 20px 20px;
+}
+
+.col {
+    border: 1px solid grey;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption,
+.navbar-brand {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26.4px;
+}
+
+section h2,
+aside h3 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #d3d3d3;
+    margin: 0;
+}
+
+.navbar-default .navbar-brand {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 36px;
+    padding: 25px;
+}
+
+.navbar-default .navbar-brand:hover {
+    background-color: #4aaaa5;
+    color: #ccc;
+}
+
+.navbar,
+.navbar-brand {
+    height: 76px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    padding: 10px 0;
+}
