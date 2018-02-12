@@ -7,6 +7,7 @@ body {
 section,
 aside {
     background: #ffffff;
+    height: fit-content;
 }
 
 div.page-header {
@@ -55,8 +56,7 @@ h3 {
 section h2,
 aside h3 {
     color: #4aaaa5;
-    /* border-bottom: 2px solid #d3d3d3; */
-    margin: 0;
+    margin: 10px 20px;
 }
 
 .navbar-default .navbar-brand {
@@ -78,4 +78,85 @@ aside h3 {
 
 ul.nav.navbar-nav.navbar-right {
     padding: 10px 0;
+}
+
+
+/************************
+    Form
+*************************/
+
+.register-form {
+    margin: 10px 20px;
+}
+
+.register-group label {
+    color: #648880;
+    cursor: pointer;
+    display: inline;
+}
+
+.register-group input {
+    height: 25px;
+}
+
+.register-group textarea {
+    height: 150px;
+}
+
+.register-group input,
+.register-group textarea {
+    width: 95%;
+    padding: 5px;
+}
+
+.register-group input,
+.register-group select,
+.register-group textarea {
+    border: 2px solid #dddddd;
+    margin: 5px 0;
+    /* 
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    padding: 5px 8px; */
+}
+
+
+/************************
+    Portfolio
+*************************/
+
+figure,
+figure img {
+    float: left;
+    width: 300px;
+    position: relative;
+}
+
+figure img {
+    border: #777777 solid 1px;
+}
+
+figure {
+    margin: 10px;
+}
+
+figcaption {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+figcaption a {
+    text-decoration: none;
+}
+
+figcaption:hover {
+    color: #777777;
 }
