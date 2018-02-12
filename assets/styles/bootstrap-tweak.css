@@ -4,6 +4,10 @@ body {
     color: #777777;
 }
 
+body {
+    padding-bottom: 65px;
+}
+
 section,
 aside {
     background: #ffffff;
