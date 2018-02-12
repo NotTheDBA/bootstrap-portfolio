@@ -65,6 +65,6 @@ If you have any questions about this project or the material we have covered, pl
 
 - - -
 
-See https://github.com/NotTheDBA/Basic-Portfolio/blob/master/recommended-homework-assignment.md for additional details.
+See <https://github.com/NotTheDBA/Basic-Portfolio/blob/master/recommended-homework-assignment.md> for additional details.
 
-Demo: https://notthedba.github.io/Basic-Portfolio/index.html
+Demo: <https://notthedba.github.io/bootstrap-portfolio/>
