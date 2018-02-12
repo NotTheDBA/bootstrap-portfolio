@@ -7,9 +7,11 @@ body {
 section,
 aside {
     background: #ffffff;
-    height: fit-content;
-    z-index: -1;
     padding: 10px 0;
+}
+
+section {
+    display: inline-block;
 }
 
 div.page-header {
@@ -128,10 +130,12 @@ figure img {
 
 figure img {
     border: #777777 solid 1px;
+    /* clear: both; */
 }
 
 figure {
     margin: 10px;
+    /* clear: both; */
 }
 
 figcaption {
